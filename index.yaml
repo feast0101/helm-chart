@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  foo:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2020-06-11T17:01:59.335911+05:30"
+    description: A Helm chart for Kubernetes
+    digest: d2a465c7e6abbf8b742d457adfdabcffc5a49fc81ed34b6fec8ef2435908f20b
+    name: foo
+    type: application
+    urls:
+    - https://feast0101.github.io/helm-chart/foo-0.1.0.tgz
+    version: 0.1.0
+generated: "2020-06-11T17:01:57.58321+05:30"
