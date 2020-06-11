@@ -3,7 +3,7 @@ entries:
   foo:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-06-11T17:01:59.335911+05:30"
+    created: "2020-06-11T18:14:09.805763+05:30"
     description: A Helm chart for Kubernetes
     digest: d2a465c7e6abbf8b742d457adfdabcffc5a49fc81ed34b6fec8ef2435908f20b
     name: foo
@@ -11,4 +11,27 @@ entries:
     urls:
     - https://feast0101.github.io/helm-chart/foo-0.1.0.tgz
     version: 0.1.0
-generated: "2020-06-11T17:01:57.58321+05:30"
+  redis-cluster:
+  - apiVersion: v1
+    appVersion: 6.0.5
+    created: "2020-06-11T18:14:09.809452+05:30"
+    description: Open source, advanced key-value store. It is often referred to as
+      a data structure server since keys can contain strings, hashes, lists, sets
+      and sorted sets.
+    digest: 25aacec5d76f663ff482b11add5c3ed1757fb1ebbdcdaafa9883d7e8745055d4
+    home: http://redis.io/
+    icon: https://bitnami.com/assets/stacks/redis/img/redis-stack-220x234.png
+    keywords:
+    - redis
+    - keyvalue
+    - database
+    maintainers:
+    - email: containers@bitnami.com
+      name: Bitnami
+    name: redis-cluster
+    sources:
+    - https://github.com/bitnami/bitnami-docker-redis
+    urls:
+    - https://feast0101.github.io/helm-chart/redis-cluster-2.3.1.tgz
+    version: 2.3.1
+generated: "2020-06-11T18:14:09.647751+05:30"
